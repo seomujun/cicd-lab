@@ -14,6 +14,6 @@ class HelloControllerTest {
 
     @Test
     void health_returnsOk() {
-        assertEquals("OK", controller.health());
+        iassertEquals("OK", controller.health());
     }
 }
